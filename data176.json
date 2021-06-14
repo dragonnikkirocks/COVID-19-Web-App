@@ -1,0 +1,115 @@
+{
+     "columns":[
+          "Cases",
+          "place",
+          "deaths",
+          "death_rate",
+          "cases_7_bl",
+          "last_update",
+          "today"
+     ],
+     "index":[
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+     ],
+     "data":[
+          [
+               6519,
+               "Rhein-Pfalz-Kreis Landkreis",
+               224,
+               3.4361098328,
+               2294,
+               "23.05.2021",
+               "23.05.2021"
+          ],
+          [
+               6567,
+               "Rhein-Pfalz-Kreis Landkreis",
+               225,
+               3.4262220192,
+               1361,
+               "29.05.2021",
+               null
+          ],
+          [
+               6572,
+               "Rhein-Pfalz-Kreis Landkreis",
+               225,
+               3.4236153378,
+               1295,
+               "30.05.2021",
+               null
+          ],
+          [
+               6582,
+               "Rhein-Pfalz-Kreis Landkreis",
+               225,
+               3.418413856,
+               1301,
+               "31.05.2021",
+               null
+          ],
+          [
+               6594,
+               "Rhein-Pfalz-Kreis Landkreis",
+               226,
+               3.4273582044,
+               1323,
+               "01.06.2021",
+               null
+          ],
+          [
+               6599,
+               "Rhein-Pfalz-Kreis Landkreis",
+               226,
+               3.4247613275,
+               1352,
+               "02.06.2021",
+               null
+          ],
+          [
+               6602,
+               "Rhein-Pfalz-Kreis Landkreis",
+               226,
+               3.4232050894,
+               1320,
+               "03.06.2021",
+               null
+          ],
+          [
+               6617,
+               "Rhein-Pfalz-Kreis Landkreis",
+               226,
+               3.4154450657,
+               1147,
+               "05.06.2021",
+               null
+          ],
+          [
+               6617,
+               "Rhein-Pfalz-Kreis Landkreis",
+               226,
+               3.4154450657,
+               1045,
+               "06.06.2021",
+               null
+          ],
+          [
+               6621,
+               "Rhein-Pfalz-Kreis Landkreis",
+               226,
+               3.4133816644,
+               1007,
+               "07.06.2021",
+               null
+          ]
+     ]
+}

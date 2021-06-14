@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+    <style>
+        body {
+    font-family: 'Times New Roman', serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(214, 85, 85);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #520b0b;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+  }
+  p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  }
+    </style>
+{% block head %}{% endblock %}
+</head>
+<body>
+
+         
+          <img src="{{url_for('static', filename='images/icon.png')}}" style="float:right;" />
+                  
+        <div class="sidenav">
+          <a href="/karlsruhe">Karlsruhe</a>
+          <a href="/frankenthal">Frankenthal</a>
+          <a href="#clients">Clients</a>
+          <a href="/contact">Contact</a>
+        </div>
+
+        {% block content %}{% endblock %}
+
+
+   
+</body>
+
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.0.min.js"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.2.0.min.js"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.2.0.min.js"
+        crossorigin="anonymous"></script>
+</html>

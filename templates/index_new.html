@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block title %}Home Page{% endblock %}
+{% block content %}
+<div class="main">
+    <div class="header">
+        <h1>COVID-19 statistics</h1>
+      </div>
+
+</div>
+<div class="container">
+    <h2>Welcome!!</h2>
+    <p>This website gives information about COVID-19 statistics from a few regions in Germany.</p>
+    <p>All the information is taken from <a href="https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/917fc37a709542548cc3be077a786c17_0/about">RKI Covid-19 API</a></p>
+    <p>The following table gives the latest information. Last updated on {{last_update}}</p>
+    <p>Please click the tabs in the navbar for more info.</p>   
+       
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Place</th>
+          <th>Total Cases</th>
+          <th>Total Deaths</th>
+          <th>Death Rate</th>
+          <th>Cases in last 7 days (bundelsand)</th>
+          D
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Karlsruhe Stadtkreis</td>
+          <td>{{Cases4|safe}}</td>
+          <td>{{deaths4|safe}}</td>
+          <td>{{death_rate4|safe}}</td>
+          <td>{{cases_7_bl4|safe}}</td>
+        </tr>
+        <tr>
+          <td>Karlsruhe Stadtkreis</td>
+          <td>{{Cases5|safe}}</td>
+          <td>{{deaths5|safe}}</td>
+          <td>{{death_rate5|safe}}</td>
+          <td>{{cases_7_bl5|safe}}</td>
+        </tr>
+        <tr>
+          <td>Frankenthal (Pfalz) Kreisfreie Stadt</td>
+          <td>{{Cases1|safe}}</td>
+          <td>{{deaths1|safe}}</td>
+          <td>{{death_rate1|safe}}</td>
+          <td>{{cases_7_bl1|safe}}</td>
+        </tr>
+        <tr>
+          <td>Germersheim Landkreis</td>
+          <td>{{Cases2|safe}}</td>
+          <td>{{deaths2|safe}}</td>
+          <td>{{death_rate2|safe}}</td>
+          <td>{{cases_7_bl2|safe}}</td>
+        </tr>
+        <tr>
+          <td>Rhein-Pfalz-Kreis Landkreis</td>
+          <td>{{Cases3|safe}}</td>
+          <td>{{deaths3|safe}}</td>
+          <td>{{death_rate3|safe}}</td>
+          <td>{{cases_7_bl3|safe}}</td>
+          </tr>
+        <tr>
+          <td>Pforzheim Stadtkreis</td>
+          <td>{{Cases6|safe}}</td>
+          <td>{{deaths6|safe}}</td>
+          <td>{{death_rate6|safe}}</td>
+          <td>{{cases_7_bl6|safe}}</td>
+          </tr>
+        <tr>
+          <td>Enzkreis Landkreis</td>
+          <td>{{Cases7|safe}}</td>
+          <td>{{deaths7|safe}}</td>
+          <td>{{death_rate7|safe}}</td>
+          <td>{{cases_7_bl7|safe}}</td>
+          </tr>
+        <tr>
+          <td>Breisgau-Hochschwarzwald Landkreis</td>
+          <td>{{Cases8|safe}}</td>
+          <td>{{deaths8|safe}}</td>
+          <td>{{death_rate8|safe}}</td>
+          <td>{{cases_7_bl8|safe}}</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+{% endblock %}

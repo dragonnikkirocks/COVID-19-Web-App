@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet"  href="{{ url_for('static', filename='css_files/css_sample.css') }}">
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;
+  }
+  /* Header/Logo Title */
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: white;
+    color: rgb(184, 55, 55);
+    font-size: 30px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(184, 55, 55);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #520b0b;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  </style>  
+  {% block head %}
+
+
+  {%endblock%}
+</head>
+<body>
+  <img src="{{url_for('static', filename='images/icon.png')}}" style="float:right;" />
+  <div class="header">
+    <h1>COVID-19</h1>
+  </div>
+
+<div class="sidenav">
+  <a href="#Karlsruhe">Karlsruhe</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="/contact">Contact</a>
+</div>
+{% block content %}
+
+{% endblock %}
+
+   
+</body>
+</html> 

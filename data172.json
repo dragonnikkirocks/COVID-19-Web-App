@@ -1,0 +1,115 @@
+{
+     "columns":[
+          "Cases",
+          "place",
+          "deaths",
+          "death_rate",
+          "cases_7_bl",
+          "last_update",
+          "today"
+     ],
+     "index":[
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+     ],
+     "data":[
+          [
+               5450,
+               "Germersheim Landkreis",
+               125,
+               2.2935779817,
+               2294,
+               "23.05.2021",
+               "23.05.2021"
+          ],
+          [
+               5468,
+               "Germersheim Landkreis",
+               125,
+               2.2860277981,
+               1361,
+               "29.05.2021",
+               null
+          ],
+          [
+               5469,
+               "Germersheim Landkreis",
+               125,
+               2.2856098007,
+               1295,
+               "30.05.2021",
+               null
+          ],
+          [
+               5472,
+               "Germersheim Landkreis",
+               125,
+               2.2843567251,
+               1301,
+               "31.05.2021",
+               null
+          ],
+          [
+               5478,
+               "Germersheim Landkreis",
+               125,
+               2.2818546915,
+               1323,
+               "01.06.2021",
+               null
+          ],
+          [
+               5487,
+               "Germersheim Landkreis",
+               125,
+               2.2781119009,
+               1352,
+               "02.06.2021",
+               null
+          ],
+          [
+               5496,
+               "Germersheim Landkreis",
+               125,
+               2.2743813683,
+               1320,
+               "03.06.2021",
+               null
+          ],
+          [
+               5506,
+               "Germersheim Landkreis",
+               125,
+               2.2702506357,
+               1147,
+               "05.06.2021",
+               null
+          ],
+          [
+               5508,
+               "Germersheim Landkreis",
+               125,
+               2.269426289,
+               1045,
+               "06.06.2021",
+               null
+          ],
+          [
+               5508,
+               "Germersheim Landkreis",
+               125,
+               2.269426289,
+               1007,
+               "07.06.2021",
+               null
+          ]
+     ]
+}

@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block head %}
+<style>
+    .header {
+    padding: 60px;
+    text-align: center;
+    background: white;
+    color: rgb(184, 55, 55);
+    font-size: 30px;
+  }
+</style>
+
+{%endblock%}
+
+{% block content %}
+
+<div class="main">
+    
+    <div class="header">
+    <h2>Germersheim Landkreis</h2>
+     </div>
+    
+     <div class="row">
+      <div class="col-sm-6">
+      {{ js_resources|indent(4)|safe }}
+      {{ css_resources|indent(4)|safe }}
+      {{ script|indent(4)|safe }}
+      {{ div|indent(4)|safe }}
+      
+      </div>
+      <div class="col-sm-6">
+        {{ js_resources|indent(4)|safe }}
+        {{ css_resources|indent(4)|safe }}
+        {{ script2|indent(4)|safe }}
+        {{ div2|indent(4)|safe }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+      {{ js_resources|indent(4)|safe }}
+      {{ css_resources|indent(4)|safe }}
+      {{ script3|indent(4)|safe }}
+      {{ div3|indent(4)|safe }}
+      
+      </div>
+      <div class="col-sm-6">
+        {{ js_resources|indent(4)|safe }}
+        {{ css_resources|indent(4)|safe }}
+        {{ script4|indent(4)|safe }}
+        {{ div4|indent(4)|safe }}
+      </div>
+    </div>
+
+   {{html_tabel1|safe}}
+   
+  </div>
+
+
+
+{%endblock%}

@@ -1,0 +1,115 @@
+{
+     "columns":[
+          "Cases",
+          "place",
+          "deaths",
+          "death_rate",
+          "cases_7_bl",
+          "last_update",
+          "today"
+     ],
+     "index":[
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+     ],
+     "data":[
+          [
+               10569,
+               "Karlsruhe Stadtkreis",
+               198,
+               1.8734033494,
+               8920,
+               "23.05.2021",
+               "23.05.2021"
+          ],
+          [
+               10628,
+               "Karlsruhe Stadtkreis",
+               202,
+               1.9006398193,
+               5154,
+               "29.05.2021",
+               null
+          ],
+          [
+               10644,
+               "Karlsruhe Stadtkreis",
+               202,
+               1.8977827884,
+               4852,
+               "30.05.2021",
+               null
+          ],
+          [
+               10649,
+               "Karlsruhe Stadtkreis",
+               202,
+               1.8968917269,
+               4763,
+               "31.05.2021",
+               null
+          ],
+          [
+               10652,
+               "Karlsruhe Stadtkreis",
+               202,
+               1.8963574916,
+               4754,
+               "01.06.2021",
+               null
+          ],
+          [
+               10661,
+               "Karlsruhe Stadtkreis",
+               202,
+               1.8947565894,
+               4994,
+               "02.06.2021",
+               null
+          ],
+          [
+               10672,
+               "Karlsruhe Stadtkreis",
+               202,
+               1.8928035982,
+               4657,
+               "03.06.2021",
+               null
+          ],
+          [
+               10694,
+               "Karlsruhe Stadtkreis",
+               202,
+               1.888909669,
+               3487,
+               "05.06.2021",
+               null
+          ],
+          [
+               10699,
+               "Karlsruhe Stadtkreis",
+               202,
+               1.8880269184,
+               3273,
+               "06.06.2021",
+               null
+          ],
+          [
+               10702,
+               "Karlsruhe Stadtkreis",
+               202,
+               1.887497664,
+               3253,
+               "07.06.2021",
+               null
+          ]
+     ]
+}

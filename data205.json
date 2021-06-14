@@ -1,0 +1,115 @@
+{
+     "columns":[
+          "Cases",
+          "place",
+          "deaths",
+          "death_rate",
+          "cases_7_bl",
+          "last_update",
+          "today"
+     ],
+     "index":[
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+     ],
+     "data":[
+          [
+               8320,
+               "Breisgau-Hochschwarzwald Landkreis",
+               180,
+               2.1634615385,
+               8920,
+               "23.05.2021",
+               "23.05.2021"
+          ],
+          [
+               8403,
+               "Breisgau-Hochschwarzwald Landkreis",
+               181,
+               2.1539926217,
+               5154,
+               "29.05.2021",
+               null
+          ],
+          [
+               8421,
+               "Breisgau-Hochschwarzwald Landkreis",
+               181,
+               2.1493884337,
+               4852,
+               "30.05.2021",
+               null
+          ],
+          [
+               8423,
+               "Breisgau-Hochschwarzwald Landkreis",
+               181,
+               2.1488780719,
+               4763,
+               "31.05.2021",
+               null
+          ],
+          [
+               8424,
+               "Breisgau-Hochschwarzwald Landkreis",
+               181,
+               2.148622982,
+               4754,
+               "01.06.2021",
+               null
+          ],
+          [
+               8437,
+               "Breisgau-Hochschwarzwald Landkreis",
+               181,
+               2.1453123148,
+               4994,
+               "02.06.2021",
+               null
+          ],
+          [
+               8464,
+               "Breisgau-Hochschwarzwald Landkreis",
+               182,
+               2.1502835539,
+               4657,
+               "03.06.2021",
+               null
+          ],
+          [
+               8471,
+               "Breisgau-Hochschwarzwald Landkreis",
+               182,
+               2.1485066698,
+               3487,
+               "05.06.2021",
+               null
+          ],
+          [
+               8476,
+               "Breisgau-Hochschwarzwald Landkreis",
+               182,
+               2.1472392638,
+               3273,
+               "06.06.2021",
+               null
+          ],
+          [
+               8478,
+               "Breisgau-Hochschwarzwald Landkreis",
+               182,
+               2.14673272,
+               3253,
+               "07.06.2021",
+               null
+          ]
+     ]
+}
